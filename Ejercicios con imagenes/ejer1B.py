@@ -2,7 +2,7 @@ import pydicom as dicom
 import matplotlib.pylab as plt
 import json
 
-image_path = './body0001.dcm'
+image_path = './x.dcm'
 output_name = "fichero"
 
 def write_dicom_json(image_path, output_name):
