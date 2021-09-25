@@ -7,11 +7,11 @@ import cv2
 import numpy as np
 import pydicom as dicom
 
-image1 = cv2.imread('body0001.png')
+image1 = cv2.imread('x.png')
 def threshold_Dicom(image1):
     # path to input image is specified and
     # image is loaded with imread command
-    image1 = cv2.imread('body0001.png')
+    image1 = cv2.imread('x.png')
 
     # cv2.cvtColor is applied over the
     # image input with applied parameters
