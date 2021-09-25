@@ -1,7 +1,7 @@
 import pydicom as dicom
 import matplotlib.pylab as plt
 
-image = './body0001.dcm'
+image = './x.dcm'
 
 def open_dicom_file(image_path):
     ds = dicom.dcmread(image_path)
