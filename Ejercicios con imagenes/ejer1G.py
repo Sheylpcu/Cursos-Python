@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 # Leer la imagen
-image1 = cv2.imread('body0001.png')
+image1 = cv2.imread('x.png')
 
 def mask(image1,color):
     # Aplicar threshold a la imagen
