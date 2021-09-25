@@ -6,7 +6,7 @@ import numpy as np
 
 
 
-path="C:\\Users\\Prácticas\\Desktop\\Ejercicios\\dicom"
+path="C:\\x"
 def planes_3(path):
     CT_images= os.listdir(path)
 
